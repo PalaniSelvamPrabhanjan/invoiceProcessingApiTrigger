@@ -46,6 +46,6 @@ def run_trigger():
         st.error(f"❌ Failed to trigger: {e}")
 
 # Button to fire the trigger
-if st.button("▶️ Run InvoiceBot"):
+if st.button("Run InvoiceBot"):
     with st.spinner("Triggering bot…"):
         run_trigger()
